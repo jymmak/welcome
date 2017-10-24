@@ -1,0 +1,32 @@
+
+/*setear mi css*/
+body{
+   
+    box-sizing: border-box;
+    color:#303030;
+    font-family:'raleway', sans-serif;
+    margin:0;
+    padding:0;
+
+}
+/*clases  reutilizables*/
+.uppercase{
+    text-transform:uppercase; 
+}
+li a{
+    color: inherit;
+    text-decoration:none;
+}
+ul li{
+    display:inline;
+    list-style:none;
+}
+nav{
+    position: absolute;
+    right:0;
+    top:50%;
+    transform:translateY(-50%)
+}
+.box-header{
+    display:inline-block;
+}
